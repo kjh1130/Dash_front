@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Main() {
   return (
-    <div className="flex flex-col w-full h-screen justify-center items-center bg-white space-y-4">
+    <div className="flex flex-col w-full h-screen justify-center items-center space-y-4">
       <div className="flex flex-row w-full justify-center items-center">
         <img src="/main/dash.svg" alt="icon" className="h-24 mr-4" />
         <span className="text-black text-5xl">Welcome to Dash</span>
