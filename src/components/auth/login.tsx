@@ -13,9 +13,11 @@ export default function Login() {
           placeholder="비밀번호"
         />
         <div className="flex flex-col w-full items-center space-y-4">
-          <button className="w-40 bg-black text-white rounded-4xl h-14 text-2xl hover:cursor-pointer">
-            로그인
-          </button>
+          <Link href="/dashboard">
+            <button className="w-40 bg-black text-white rounded-4xl h-14 text-2xl hover:cursor-pointer">
+              로그인
+            </button>
+          </Link>
           <div className="flex flex-row space-x-2">
             <span>계정이 없으신가요?</span>
             <Link href="/signup">
